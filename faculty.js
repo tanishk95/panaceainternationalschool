@@ -3,12 +3,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const loadMoreButton = document.querySelector('#load-more-faculty');
 
     const facultyData = [
-        { name: 'Dr. Evelyn Reed', subject: 'Principal', image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVhY2hlcnxlbnwwfHwwfHx8MA%3D%3D' },
-        { name: 'Mr. David Chen', subject: 'Mathematics', image: 'https://images.unsplash.com/photo-1580894732444-8ec539b7a134?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dGVhY2hlcnxlbnwwfHwwfHx8MA%3D%3D' },
-        { name: 'Ms. Sarah Johnson', subject: 'Science', image: 'https://plus.unsplash.com/premium_photo-1661766479343-98243c365064?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dGVhY2hlcnxlbnwwfHwwfHx8MA%3D%3D' },
-        { name: 'Mr. Michael Brown', subject: 'History', image: 'https://images.unsplash.com/photo-1544717297-fa95b6f9944f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRlYWNoZXJ8ZW58MHx8MHx8fDA%3D' },
-        { name: 'Ms. Emily White', subject: 'English', image: 'https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHRlYWNoZXJ8ZW58MHx8MHx8fDA%3D' },
-        { name: 'Mr. Robert Davis', subject: 'Physical Education', image: 'https://images.unsplash.com/photo-1594759882260-e0705a060b28?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHRlYWNoZXJ8ZW58MHx8MHx8fDA%3D' },
+        { name: 'Abhinav Kumar', subject: 'Principal', image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dGVhY2hlcnxlbnwwfHwwfHx8MA%3D%3D' },
+        { name: 'Ajit Kumar', subject: 'Director', image: 'https://images.unsplash.com/photo-1580894732444-8ec539b7a134?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dGVhY2hlcnxlbnwwfHwwfHx8MA%3D%3D' },
+        { name: 'Mr. Rahul Gupta', subject: 'Science and Maths', image: 'https://plus.unsplash.com/premium_photo-1661766479343-98243c365064?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dGVhY2hlcnxlbnwwfHwwfHx8MA%3D%3D' },
+        { name: 'Priyeranjan Kumar', subject: 'Social Studies', image: 'https://images.unsplash.com/photo-1544717297-fa95b6f9944f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRlYWNoZXJ8ZW58MHx8MHx8fDA%3D' },
+        { name: 'Sarita', subject: 'Junior Faculty', image: 'https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHRlYWNoZXJ8ZW58MHx8MHx8fDA%3D' },
+        { name: 'Jyoti', subject: 'Junior Faculty', image: 'https://images.unsplash.com/photo-1594759882260-e0705a060b28?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHRlYWNoZXJ8ZW58MHx8MHx8fDA%3D' },
     ];
 
     let currentIndex = 0;
